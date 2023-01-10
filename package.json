@@ -1,0 +1,25 @@
+{
+	"name": "html-tabs-advanced",
+	"version": "1.0.0",
+	"description": "Advanced HTML tabs",
+	"scripts": {
+		"start": "parcel src/*.html --open",
+		"build": "parcel build src/*.html --public-url ./"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/A14313/html-tabs-advanced.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/A14313/html-tabs-advanced/issues"
+	},
+	"homepage": "https://github.com/A14313/html-tabs-advanced#readme",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.8.2",
+		"parcel": "^2.8.2",
+		"sass": "^1.57.1"
+	}
+}
